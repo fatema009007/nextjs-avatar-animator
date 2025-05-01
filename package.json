@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-avatar-animator",
+  "version": "1.0.0",
+  "description": "A Next.js project that takes an employee image and returns an animated avatar image.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "avatar",
+    "animation",
+    "image-upload"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "openai": "^4.96.2",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "typescript": "latest"
+  }
+}
