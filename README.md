@@ -1,6 +1,22 @@
 # Next.js Avatar Animator
 
-This project is a Next.js application that allows users to upload an employee image and receive an animated avatar in return. The application consists of a simple interface for image uploading and an API that processes the image to create an animated avatar.
+A web application built with Next.js that transforms profile photos into professional digital avatars using AI image generation.
+
+## Features
+
+- Upload images in various formats (JPEG, PNG, GIF, WEBP)
+- Transform photos into professional digital avatars
+- Preview original and generated images side by side
+- Save generated avatars locally
+- Responsive design
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- OpenAI API (DALL-E)
+- Sharp for image processing
+- Tailwind CSS
 
 ## Project Structure
 
@@ -22,34 +38,28 @@ nextjs-avatar-animator
 └── README.md                    # Project documentation
 ```
 
-## Installation
+## Getting Started
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/nextjs-avatar-animator.git
-   cd nextjs-avatar-animator
-   ```
-
-2. Install the dependencies:
-   ```
+1. Clone the repository
+2. Install dependencies:
+   ```bash
    npm install
    ```
-
-## Usage
-
-1. Start the development server:
+3. Create a `.env` file and add your OpenAI API key:
    ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+4. Run the development server:
+   ```bash
    npm run dev
    ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-2. Open your browser and navigate to `http://localhost:3000`.
+## Environment Variables
 
-3. Use the image uploader to select an employee image. Once uploaded, the application will process the image and display the animated avatar.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+Required environment variables:
+- `OPENAI_API_KEY`: Your OpenAI API key
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+MIT
